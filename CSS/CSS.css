@@ -1,0 +1,219 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/MBG.png);
+	background-repeat: repeat-x;
+	height: 1300px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+#Bottom {
+	height: 50px;
+	width: 1000px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: left;
+	margin-top: 60px;
+}
+#Bottom h5 {
+	color: rgba(255,255,255,1);
+	width: 330px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#Title {
+	float: left;
+	height: 80px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Title ul {
+	color: rgba(255,255,255,1);
+	float: right;
+	height: 80px;
+	width: 400px;
+	margin-top: 40px;
+}
+#Title ul li {
+	list-style-type: none;
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,153,204,1);
+}
+#Title ul li a {
+	background-color: rgba(0,153,204,1);
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	float: left;
+	margin-right: 10px;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	font-size: 24px;
+}
+#Title ul li a:hover {
+	background-color:rgba(37,69,122,1)
+}
+#info {
+	background-color: rgba(255,255,255,0.5);
+	height: 520px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+	margin-top: 10px;
+	font-family: "黑体";
+	color: rgba(255,255,255,1);
+}
+.LName {
+	color: #09F;
+	margin-left: 10px;
+}
+.List {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	list-style-type: square;
+	color: #09F;
+	list-style-position: outside;
+}
+
+#info #Unity h1 {
+	background-color: rgba(0,153,255,1);
+	padding-top: 20px;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+#info #Unity .List li a {
+	color: #666;
+	text-decoration: none;
+}
+#info #Unity .List li a:hover {
+	text-decoration: underline;
+	color: #09F;
+}
+#info #Max .List li a {
+	color: #666;
+	text-decoration: none;
+}
+#info #DW .List li a {
+	color: #666;
+	text-decoration: none;
+}
+#info #DW .List li a:hover {
+	text-decoration: underline;
+	color: #09F;
+}
+
+
+#info #Max .List li a:hover {
+	text-decoration: underline;
+	color: #09F;
+}
+
+
+
+
+#info #Max {
+	float: left;
+	height: 460px;
+	width: 250px;
+	margin-right: 35px;
+	margin-left: 35px;
+	background-color: rgba(255,255,255,1);
+	margin-top: 30px;
+}
+#info #Max h1 {
+	background-color: rgba(0,153,255,1);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	margin-top: 0px;
+}
+#info #Max #icon {
+	background-image: url(../images/3Ds.jpg);
+	height: 194px;
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+#info #DW h1 {
+	background-color: rgba(0,153,255,1);
+	padding-top: 20px;
+	margin-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+
+
+
+
+
+#info #Unity {
+	background-color: rgba(255,255,255,1);
+	float: left;
+	height: 460px;
+	width: 250px;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+#info #Unity #icon {
+	background-image: url(../images/Unity.jpg);
+	height: 194px;
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#info #DW {
+	background-color: rgba(255,255,255,1);
+	height: 460px;
+	width: 250px;
+	margin-left: 35px;
+	float: left;
+	margin-right: 35px;
+	margin-top: 30px;
+}
+#info #DW #icon {
+	background-image: url(../images/DW.jpg);
+	height: 194px;
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+#PreView {
+	float: left;
+	height: 500px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+#PreView iframe {
+	margin-top: 100px;
+}
+
+
+
+
+
+#Title #logo {
+	background-image: url(../images/Logo.png);
+	float: left;
+	height: 80px;
+	width: 300px;
+	margin-top: 40px;
+}
